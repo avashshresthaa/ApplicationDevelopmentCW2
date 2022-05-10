@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewData["Title"] = "GetListOfDVDCopy";
+}
+<style>
+body{
+            background-color: #FF4CBA;
+            /* For browsers that do not support gradients */
+            background-image: linear-gradient(#000C40, #F0F2F0);
+}
+</style>
+<body>
+    <div class="container">
+        <h1 class="text-center" style="font-weight:800; color:white; text-shadow: 0 0 5px 
+black; margin-top: 15px; margin-bottom:25px;">List of DVD Copies purchased year ago and not on loan</h1>
+        @if (ViewBag.copyDeleted)
+        {
+            @*    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                <strong>DVD Copy has been deleted!</strong>
+                <button type="button" asp-action="GetListOfDVDCopy" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+                </div>*@
+        }
+        <div class="card" style="opacity:80%;">
+            <table class="table">
+                <thead>
+                    <tr>
+
+                        <th>Copy Number</th>
+                        <th>Date Returned</th>
+                        <th>Date Purchased</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in ViewBag.dvdList)
+                    {
+                        <tr>
+                            <td>@item.dvdCopy.CopyNumber</td>
+                            <td>@item.loan.DateReturned</td>
+                            <td>@item.dvdCopy.DatePurchased</td>
+                            <td>
+                                <ul class="list-inline m-0">
+                                    <li class="list-inline-item">
+                                        <a href="@Url.Action("DeleteCopy","Assistant",new { item.dvdCopy.CopyNumber} )" class="btn btn-danger" type="button" data-toggle="tooltip" data-placement="top" title="Delete">Delete</a>
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>

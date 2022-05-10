@@ -1,0 +1,60 @@
+﻿@model IEnumerable<GroupCoursework.Models.Studio>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<style>
+p .create{
+    color: white;
+    margin-left: 10px;
+    font-size: 25px;
+}
+th{
+    color:white;
+}
+
+td{
+    color: white;
+}
+
+td a{
+    color: white;
+}
+
+.container .card{
+    margin-top: 20%;
+}
+</style>
+
+
+<div class="container">
+<div class="card" style="background-color:#121212; opacity:70%;">
+<p>
+    <a asp-action="Create" class="create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.StudioName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.StudioName)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.StudioNumber">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.StudioNumber">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.StudioNumber">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</div>
+</div>

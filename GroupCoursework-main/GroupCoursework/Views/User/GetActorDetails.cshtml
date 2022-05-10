@@ -1,0 +1,76 @@
+﻿@{
+    ViewData["Title"] = "GetActorDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+body{
+background-image:url("../images/bg.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+}
+th{
+    color:white;
+}
+h1{
+    color: white;
+    text-shadow: 0 0 5px #FF0000;
+    margin-top: 5px;
+}
+</style>
+<body>
+<h1 class="text-center" style="font-weight:800;color:white">View the title of all DVD's Stocked by the shop</h1>
+
+
+<div class="container">
+        <form action="@Url.Action("GetActorDetails", "User")" method="get">
+            <div class="row">
+                <div class="input-group">
+                <select id="surname" name="name" class="form-control custom-select bg-white border-left-0 border-md" required>
+                    <option value="">Select a Actor Surname</option>
+                    @foreach (var name in ViewBag.Actors)
+                        {
+                    <option value="@name.ActorSurname"> @name.ActorFirstName @name.ActorSurname</option>
+                        }
+                </select>
+                <div class="input-group-append">
+                        @*      <input type="button" value="Search" onclick="location.href='@Url.Action("GetActorDetails", "NormalUser", new {name = "Smith"})'" />*@
+                          <button type="submit" style="background-color: #205375; border:#F2D8B3; color: white;">Submit</button>
+                </div>
+                </div>
+            </div>
+        </form>
+
+</div>
+<br />
+<div class="container">
+<div class="card" style="background-color:black; opacity:70%;">
+    <table class="table" style="color:white;">
+        <thead>
+            <tr>
+                <th>DVD Number</th>
+                <th>DVD Title</th>
+                <th>Actor First Name</th>
+                <th>Actor Last Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in ViewBag.name)
+            {
+                <tr>
+                    <td>@item.dvdTitle.DVDNumber</td>
+                    <td>@item.dvdTitle.DvdTitle</td>
+                    <td>@item.actorDetails.ActorFirstName</td>
+                    <td>@item.actorDetails.ActorSurname</td>
+
+                    @*     <a asp-action="Edit" asp-route-id="@item.id">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.id">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.id">Delete</a>*@
+
+                </tr>
+            }
+            </div>
+
+            </tbody>
+    </table>
+    </div>
+</body>

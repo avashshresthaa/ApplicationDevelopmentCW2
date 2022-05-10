@@ -1,0 +1,46 @@
+﻿@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<IdentityUser> signInManager;
+@inject UserManager<IdentityUser> UserManager;
+
+@{
+    ViewData["Title"] = "Index1";
+}
+
+<h1 class="text-center" style="color:white;text-shadow: 0 0 3px black; font-weight:800; margin:2% 78% 2% 0;">Manage Data</h1>
+<style>
+
+    body{
+            background-color: #FF4CBA;
+            /* For browsers that do not support gradients */
+            background-image: linear-gradient(#44A08D, #093637);
+        }
+
+    li{
+        font-weight:700;
+    }
+
+    .class{
+        margin-right: 50%;
+    }
+</style>
+
+<div class="container class">
+    <ul class="m-2" style="opacity:100%;">
+           <li class="list-group m-1">
+            <a class="list-group-item" asp-area="" style="color: black" asp-controller="Producers" asp-action="Create">Create New Producer</a>
+        </li>
+              <li class="list-group m-1">
+            <a class="list-group-item" asp-area="" style="color: black" asp-controller="Actors" asp-action="Create">Create New Actor</a>
+        </li>
+          <li class="list-group m-1">
+            <a class="list-group-item" asp-area="" style="color: black" asp-controller="Studios" asp-action="Create">Create New Studio</a>
+        </li>
+    
+                  <li class="list-group m-1">
+            <a class="list-group-item" asp-area="" style="color: black" asp-controller="DVDCategories" asp-action="Create">Create New DVDCategory</a>
+        </li>
+
+    </ul>
+</div>
+<br />

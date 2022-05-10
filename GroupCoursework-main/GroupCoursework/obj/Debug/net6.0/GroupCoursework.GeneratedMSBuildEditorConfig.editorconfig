@@ -1,0 +1,224 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = GroupCoursework
+build_property.RootNamespace = GroupCoursework
+build_property.ProjectDir = C:\Users\avash\Desktop\Development\GroupCourseworkAKMN\GroupCoursework-main\GroupCoursework\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\avash\Desktop\Development\GroupCourseworkAKMN\GroupCoursework-main\GroupCoursework
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Account/ListUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMaXN0VXNlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Account/RegisterAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3RlckFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Account/RegisterStaff.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3RlclN0YWZmLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Account/ResetPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Actors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Actors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Actors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Actors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Actors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Assistant/AddDVDCopy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaXN0YW50XEFkZERWRENvcHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Assistant/AddDVDCopy2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaXN0YW50XEFkZERWRENvcHkyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Assistant/AddDVDCopyMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaXN0YW50XEFkZERWRENvcHlNZXNzYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Assistant/EditDVDCopyDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaXN0YW50XEVkaXREVkRDb3B5RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Assistant/GetDateOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaXN0YW50XEdldERhdGVPdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Assistant/GetDVDCopyListNotLoaned.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaXN0YW50XEdldERWRENvcHlMaXN0Tm90TG9hbmVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Assistant/GetDVDofNoLoan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaXN0YW50XEdldERWRG9mTm9Mb2FuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Assistant/GetList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaXN0YW50XEdldExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Assistant/GetListOfDVDCopy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaXN0YW50XEdldExpc3RPZkRWRENvcHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Assistant/GetLoanDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaXN0YW50XEdldExvYW5EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Assistant/GetTotalLoans.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaXN0YW50XEdldFRvdGFsTG9hbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Assistant/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaXN0YW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Assistant/Index1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaXN0YW50XEluZGV4MS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Assistant/ListAllLoans.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaXN0YW50XExpc3RBbGxMb2Fucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Assistant/MemberListNotBorrowed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaXN0YW50XE1lbWJlckxpc3ROb3RCb3Jyb3dlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/DVDCategories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRFZEQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/DVDCategories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRFZEQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/DVDCategories/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRFZEQ2F0ZWdvcmllc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/DVDCategories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRFZEQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/DVDCategories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRFZEQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/DVDTitle/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRFZEVGl0bGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/DVDTitle/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRFZEVGl0bGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Producers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Producers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Producers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Producers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Producers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Studios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGlvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Studios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGlvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Studios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGlvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Studios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGlvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Studios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGlvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/User/GetActorCopy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxHZXRBY3RvckNvcHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/User/GetActorDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxHZXRBY3RvckRldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avash/Desktop/Development/GroupCourseworkAKMN/GroupCoursework-main/GroupCoursework/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-yijdfhd7nw

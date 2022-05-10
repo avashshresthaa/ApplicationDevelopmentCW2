@@ -1,0 +1,64 @@
+﻿@model GroupCoursework.Models.DVDCategory
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<style>
+body{
+            background-color: #FF4CBA;
+            /* For browsers that do not support gradients */
+            background-image: linear-gradient(#44A08D, #093637);
+        }
+.row{
+    justify-content:center;
+    margin-left: 50px;
+    margin-top: 50px;  
+}
+
+form a{
+ color: white;
+}
+
+form input{
+    margin-left: 65px;
+}
+.control-label{
+    font-size:25px;
+    color:white;
+}
+</style>s
+
+<h1>Edit</h1>
+
+<h4>DVDCategory</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="CategoryNumber" />
+            <div class="form-group">
+                <label asp-for="CategoryDescription" class="control-label"></label>
+                <input asp-for="CategoryDescription" class="form-control" />
+                <span asp-validation-for="CategoryDescription" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="AgeRestricted" /> @Html.DisplayNameFor(model => model.AgeRestricted)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

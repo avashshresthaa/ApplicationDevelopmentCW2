@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewData["Title"] = "AddDVDCopy";
+}
+
+<style>
+body{
+     background-color: #FF4CBA;
+
+            background-image: linear-gradient(#44A08D, #093637);
+}
+
+label{
+    font-size: 25px;
+}
+</style>
+<h1 class="text-center" style="font-weight:800; color:white; text-shadow: 0 0 7px black; margin-top: 10px;">AddDVDCopy</h1>
+
+<div class="container">
+<form action="/Assistant/AddDVDCopy" method="post">
+            <div class="form-group">
+                 <label> Members</label>
+                 <select id="member" name="member" class="form-control" required>
+                        <option value="">Select a Member</option>
+                        @foreach (var name in ViewBag.member)
+                        {
+                            <option value="@name.MembershipNumber">  @name.MembershipFirstName @name.MembershipLastName</option>
+                        }
+                    </select>
+            </div>
+            <div class="form-group">
+                <label> Category</label>
+                 <select id="loantype" name="loantype" class="form-control custom-select bg-white border-left-0 border-md" required>
+                        <option value="">Select a Category</option>
+                        @foreach (var name in ViewBag.loanType)
+                        {
+                            <option value="@name.LoanTypeNumber">@name.Loan_Type</option>
+                        }
+                    </select>
+            </div>
+            <div class="form-group">
+                <label> DVD</label>
+                 <select id="copynumber" name="copynumber" class="form-control custom-select bg-white border-left-0 border-md" required>
+                        <option value="">Select a copyNumber</option>
+                        @foreach (var name in ViewBag.dvd)
+                        {
+                            <option value="@name.dvdcopy.CopyNumber">@name.dvdtitle.DvdTitle</option>
+                        }
+                    </select>
+            </div>
+            <div class="form-group">
+                <Button type="submit" class="btn btn-primary form-control" >Submit</Button>
+            </div>
+        </form>
+        </div>
+

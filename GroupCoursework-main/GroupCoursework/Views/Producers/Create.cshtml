@@ -1,0 +1,50 @@
+﻿@model GroupCoursework.Models.Producer
+
+@{
+    ViewData["Title"] = "Create";
+}
+<style>
+body{
+            background-color: #FF4CBA;
+            /* For browsers that do not support gradients */
+            background-image: linear-gradient(#44A08D, #093637);
+        }
+.row{
+    justify-content:center;
+    margin-left: 10px;
+    margin-top: 50px;  
+}
+.control-label{
+    font-size:25px;
+    color:white;
+}
+</style>
+<h1 class="text-center" style="font-weight:800; color:white; text-shadow: 0 0 5px 
+black; margin-top: 10px; margin-bottom:10px;">Create Producer</h1>
+
+<hr />
+ <div class="container">
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ProducerName" class="control-label"></label>
+                <input asp-for="ProducerName" class="form-control" />
+                <span asp-validation-for="ProducerName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+<div>
+    @*<a asp-action="Index">Back to List</a>*@
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

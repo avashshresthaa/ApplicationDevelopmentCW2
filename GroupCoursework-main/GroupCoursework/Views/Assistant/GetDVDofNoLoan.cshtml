@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewData["Title"] = "GetDVDofNoLoan";
+}
+<style>
+body{
+            background-image: url("../images/09.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover
+}
+</style>
+<body>
+    <div class="container">
+    <h1 class="text-center" style="font-weight:800; color:white; text-shadow: 0 0 5px 
+black; margin-top: 15px; margin-bottom:25px;">Get DVD of No Loan</h1>
+    <div class="card" style="opacity:80%;">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>DVD Title Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in ViewBag.dvd)
+            {
+                <tr>
+                    <td>@item.dvdTitle.DvdTitle</td>
+                </tr>
+            }
+        </tbody>
+        </div>
+    </table>
+    </div>
+</body>
+

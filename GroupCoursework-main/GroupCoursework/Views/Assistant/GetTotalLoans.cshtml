@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewData["Title"] = "GetTotalLoans";
+}
+<style>
+ body{
+            background-color: #C4DDFF;
+            /* For browsers that do not support gradients */
+            /*background-image: linear-gradient(#6190E8, #A7BFE8);*/
+        }   
+</style>
+
+<h1 class="text-center" style="font-weight:800; color:white; text-shadow: 0 0 5px 
+black; margin-top: 10px; margin-bottom:10px;">Total loans a member has taken</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Membership First Name</th>
+            <th>Membership Category Number</th>
+            <th>Allowed Loans</th>
+            <th>Total Loans</th>
+            <th>Message</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in ViewBag.totalloans)
+        {
+
+          
+            <tr>
+
+                <td style="width:210px">@item.MembershipFirstName</td>
+                <td style="width:210px">@item.MembershipCategoryNumber</td>
+                <td style="width:180px">@item.MembershipCategoryTotalLoans</td>
+                <td style="width:180px">@item.TotalLoans</td>
+                  @if (int.Parse(@item.MembershipCategoryTotalLoans) < @item.TotalLoans)
+                {
+                    <td class="text-danger">Too many DVDs on loaned</td>
+                }
+                else
+                {
+                    var leftview = int.Parse(@item.MembershipCategoryTotalLoans) - @item.TotalLoans;
+                    <td>Loan  @leftview left</td>
+                }
+
+            </tr>
+        }
+    </tbody>
+</table>
+
